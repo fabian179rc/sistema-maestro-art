@@ -14,11 +14,10 @@ export function FloatingCTA() {
   }, []);
 
   useEffect(() => {
-    const target = document.getElementById("comprar");
+    const target = document.getElementById("comprar-cta");
     if (!target) return;
     const observer = new IntersectionObserver(
       ([entry]) => setOverComprar(entry.isIntersecting),
-      { rootMargin: "-1px 0px -50% 0px" },
     );
     observer.observe(target);
     return () => observer.disconnect();

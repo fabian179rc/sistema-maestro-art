@@ -3,7 +3,7 @@ import { MotionConfig } from "framer-motion";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 import { getCheckoutUrl } from "./utils/checkoutUrl";
-const META_PIXEL_ID = "37700639772914955";
+const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
   "ART MASTER 2026 — La Biblia Operativa del Litigio";
 const PAGE_DESC =
@@ -11,7 +11,7 @@ const PAGE_DESC =
 const HERO_IMAGE = `${import.meta.env.BASE_URL}art-master-2026-mockup.png`;
 const HERO_IMAGE_MOBILE = `${import.meta.env.BASE_URL}art-master-2026-mockup.png`;
 
-const SITE_URL = "https://reflexologia.tupuntodigital.shop/";
+const SITE_URL = "https://sistemamaestroart.tupuntodigital.shop/";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,

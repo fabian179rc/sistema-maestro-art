@@ -36,7 +36,7 @@ export function HeroSection() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mx-auto my-4 md:my-6 w-full max-w-[300px] sm:max-w-md md:max-w-lg"
+          className="mx-auto my-4 md:my-6 w-full max-w-[270px] sm:max-w-md md:max-w-lg"
         >
           <div className="relative rounded-2xl p-3 md:p-4 bg-gradient-to-br from-[#0d1b2a] to-[#0a1628] border border-brand-teal/20 shadow-[0_20px_60px_rgba(0,212,170,0.15)]">
             <picture>
@@ -64,7 +64,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl mx-auto mt-0 mb-2"
         >
-          <p className="text-brand-gray text-[13px] md:text-base leading-relaxed">
+          <p className="text-brand-gray text-[11px] md:text-base leading-snug md:leading-relaxed">
             Guías paso a paso, modelos de escritos, checklists procesales, fórmulas de cálculo actualizadas y protocolos digitales, listos para usar desde el primer día.
           </p>
         </motion.div>
@@ -73,7 +73,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.35 }}
-          className="max-w-xl mx-auto mt-4 mb-8 space-y-2 text-left"
+          className="max-w-xl mx-auto mt-3 mb-4 space-y-1.5 text-left"
         >
           {[
             "Gestioná expedientes sin perder plazos ni improvisar cada trámite.",
@@ -82,7 +82,7 @@ export function HeroSection() {
           ].map((item) => (
             <li
               key={item}
-              className="flex items-start gap-3 text-brand-text text-sm md:text-base"
+              className="flex items-start gap-2 md:gap-3 text-brand-text text-xs md:text-base"
             >
               <span className="text-brand-teal font-black flex-shrink-0 mt-0.5">
                 ✓
@@ -99,11 +99,11 @@ export function HeroSection() {
           className="flex flex-col items-center"
         >
           <motion.a
-            href="#comprar"
-            onClick={scrollToOffer}
+            href="#pricing"
+            onClick={(e) => scrollToOffer(e, "pricing")}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest px-6 sm:px-10 py-4 sm:py-5 rounded-lg shadow-[0_0_30px_#00d4aa33] transition-all mb-6 text-[13px] sm:text-lg whitespace-nowrap"
+            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest px-6 sm:px-10 py-3 sm:py-5 rounded-lg shadow-[0_0_30px_#00d4aa33] transition-all mb-3 sm:mb-6 text-[13px] sm:text-lg whitespace-nowrap"
           >
             Quiero Mi Sistema ART
           </motion.a>

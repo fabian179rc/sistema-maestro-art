@@ -26,7 +26,7 @@ export function PricingSection() {
           <span className="text-brand-teal">a trabajar con método</span>
         </h2>
 
-        <div className="relative inline-block mb-2 w-full max-w-[200px] md:max-w-sm mx-auto">
+        <div className="relative inline-block mb-2 w-full max-w-[280px] md:max-w-sm mx-auto">
           <div className="relative rounded-xl md:rounded-2xl p-1.5 md:p-4 bg-gradient-to-br from-[#0d1b2a] to-[#0a1628] border border-brand-teal/20 shadow-[0_20px_60px_rgba(0,212,170,0.15)]">
             <picture>
               <source
@@ -63,9 +63,9 @@ export function PricingSection() {
             Pago único · Acceso instantáneo desde hoy
           </p>
 
-          <div className="hidden md:grid grid-cols-1 gap-2.5 text-left mb-8">
+          <div className="grid grid-cols-1 gap-1 md:gap-2.5 text-left mb-3 md:mb-8">
             {incluye.map((item) => (
-              <p key={item} className="flex items-start gap-2.5 text-brand-text text-sm">
+              <p key={item} className="flex items-start gap-1.5 md:gap-2.5 text-brand-text text-[11px] md:text-sm">
                 <span className="text-brand-teal font-black flex-shrink-0">✓</span>
                 {item}
               </p>
@@ -73,6 +73,7 @@ export function PricingSection() {
           </div>
 
           <motion.a
+            id="comprar-cta"
             href={getCheckoutUrl()}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}

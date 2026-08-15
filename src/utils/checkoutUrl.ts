@@ -1,5 +1,5 @@
 const CHECKOUT_BASE_URL =
-  'https://sistema-maestro-de-reflexologia-clinica-para-profesionales.impultienda.ar/checkout';
+  'https://sistema-maestro-art.impultienda.ar/checkout';
 
 /**
  * Appends the current page's query string (utm_source, utm_campaign, gclid,
