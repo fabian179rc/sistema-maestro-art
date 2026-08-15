@@ -42,7 +42,7 @@ export function FloatingCTA() {
               onClick={scrollToOffer}
               className="inline-flex items-center justify-center gap-2 bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest text-sm px-8 py-4 rounded-lg shadow-2xl shadow-[#00d4aa]/30 border-2 border-white/10 transition-colors"
             >
-              ¡Quiero el Sistema Ya!
+              ¡Quiero ART MASTER Ya!
             </a>
           </div>
         </motion.div>

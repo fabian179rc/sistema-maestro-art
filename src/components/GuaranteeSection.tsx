@@ -10,21 +10,19 @@ export function GuaranteeSection() {
           </span>
           <h2 className="font-heading text-2xl md:text-4xl font-black text-white flex items-center justify-center gap-2 md:gap-3">
             <ShieldCheck className="w-7 h-7 md:w-10 md:h-10 text-brand-teal" />
-            Garantía Incondicional de 7 Días
+            Garantía de 7 Días — Riesgo Cero
           </h2>
         </div>
 
         <div className="bg-brand-card border border-brand-border rounded-2xl md:rounded-3xl p-4 md:p-8">
           <h3 className="text-base md:text-xl font-bold text-white mb-2 md:mb-3">
-            Sin formularios, sin excusas
+            Tu inversión está 100% protegida
           </h3>
           <p className="text-brand-gray text-sm md:text-base leading-relaxed mb-4 md:mb-6">
-            Tenés 7 días para revisar el sistema completo. Si no es
-            exactamente lo que prometemos, te devolvemos el 100% de tu
-            dinero.
+            Tenés 7 días para revisar ART MASTER 2026. Si el contenido no se corresponde con lo ofrecido en esta página, podés solicitar la devolución según las condiciones de compra.
           </p>
           <div className="inline-flex bg-brand-teal/10 px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-brand-teal/30 text-brand-teal font-bold text-xs md:text-sm">
-            Riesgo Cero Garantizado
+            Sin riesgo ✓
           </div>
         </div>
       </div>

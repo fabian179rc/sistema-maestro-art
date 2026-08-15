@@ -3,19 +3,19 @@ import { motion } from 'framer-motion';
 import { PackageOpen, CheckCircle2 } from 'lucide-react';
 
 const temas = [
-  { emoji: '🦶', label: 'Mapa de Zonas Reflejas' },
-  { emoji: '🧬', label: 'Anatomía Aplicada' },
-  { emoji: '📋', label: 'Fichas de Evaluación' },
-  { emoji: '⚠️', label: 'Contraindicaciones' },
-  { emoji: '🩺', label: 'Protocolos por Patología' },
-  { emoji: '💼', label: 'Script de Venta' },
-  { emoji: '✍️', label: 'Consentimiento Informado' },
-  { emoji: '🖐️', label: 'Ergonomía Terapéutica' },
+  { emoji: '📋', label: 'Marco Normativo 2026' },
+  { emoji: '🖥️', label: 'ARCA y Ventanilla SRT' },
+  { emoji: '⚖️', label: '10 Trámites ante CM' },
+  { emoji: '🎥', label: 'Audiencias Virtuales Teams' },
+  { emoji: '🔢', label: 'Cálculo de Indemnización Pro' },
+  { emoji: '🗺️', label: 'Instancia Judicial CABA & PBA' },
+  { emoji: '📊', label: 'Nuevo Baremo Dto. 549/2025' },
+  { emoji: '🔁', label: 'Recursos ante Comisiones Médicas' },
 ];
 
 const respaldo = [
-  { emoji: '🔬', label: 'Anatomía y fisiología real' },
-  { emoji: '🚫', label: 'Sin opinión de internet' },
+  { emoji: '⚙️', label: 'Protocolos paso a paso' },
+  { emoji: '📚', label: 'Normativa actualizada' },
 ];
 
 export function ContentSection() {
@@ -28,12 +28,11 @@ export function ContentSection() {
             Esto es lo que recibís por dentro
           </span>
           <h2 className="font-heading font-black text-white text-3xl md:text-5xl leading-tight mb-4">
-            REFLEXOLOGÍA EN LA{' '}
-            <span className="text-brand-teal">PRÁCTICA CLÍNICA</span>
+            ART MASTER 2026:{' '}
+            <span className="text-brand-teal">LA BIBLIA OPERATIVA</span>
           </h2>
           <p className="text-lg md:text-xl font-bold text-brand-gray max-w-2xl mx-auto">
-            Un sistema completo para organizar y profesionalizar tu aplicación
-            de reflexología desde el primer paciente.
+            Todo el sistema operativo en un solo producto para trabajar con método, precisión y confianza en cada expediente.
           </p>
         </div>
 
@@ -46,11 +45,11 @@ export function ContentSection() {
           <picture>
             <source
               media="(min-width: 768px)"
-              srcSet={`${import.meta.env.BASE_URL}protocolo-glp1-mockup.webp`}
+              srcSet={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
             />
             <img
-              src={`${import.meta.env.BASE_URL}protocolo-glp1-mockup-mobile.webp`}
-              alt="Sistema Maestro de Reflexología para Profesionales — vista previa"
+              src={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
+              alt="Vista previa de ART MASTER 2026"
               width={1254}
               height={1254}
               loading="lazy"
@@ -92,7 +91,7 @@ export function ContentSection() {
           className="bg-brand-card border border-brand-teal/20 rounded-3xl p-5 md:p-7 text-center"
         >
           <h3 className="font-heading font-bold text-white text-xl md:text-2xl mb-5">
-            Basado en anatomía aplicada, criterios de seguridad y protocolos estructurados
+            Listo para descargar y usar desde el primer día
           </h3>
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             {respaldo.map((r, i) => (

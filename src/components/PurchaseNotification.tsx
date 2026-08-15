@@ -2,16 +2,16 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "Sistema Maestro de Reflexología para Profesionales";
-const PRODUCT_NAME_SHORT = "Sistema de Reflexología";
+const PRODUCT_NAME = "ART MASTER 2026";
+const PRODUCT_NAME_SHORT = "ART MASTER 2026";
 
 const NOTIFICATIONS = [
-  { name: "Paola V.", city: "San José", minutesAgo: 27 },
-  { name: "Martín G.", city: "Ciudad de México", minutesAgo: 12 },
-  { name: "Lucía F.", city: "Bogotá", minutesAgo: 41 },
-  { name: "Diego R.", city: "Lima", minutesAgo: 8 },
-  { name: "Carla M.", city: "Santiago", minutesAgo: 33 },
-  { name: "Sergio N.", city: "Buenos Aires", minutesAgo: 19 },
+  { name: "María L.", city: "Buenos Aires", minutesAgo: 27 },
+  { name: "Federico G.", city: "Córdoba", minutesAgo: 12 },
+  { name: "Valentina R.", city: "Rosario", minutesAgo: 41 },
+  { name: "Lucía P.", city: "La Plata", minutesAgo: 8 },
+  { name: "Sergio N.", city: "Buenos Aires", minutesAgo: 33 },
+  { name: "Carolina M.", city: "Mendoza", minutesAgo: 19 },
 ];
 
 export function PurchaseNotification() {

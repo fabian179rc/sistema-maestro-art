@@ -4,7 +4,7 @@ export function TopBar() {
   return (
     <div className="hidden md:block sticky top-0 z-50 bg-brand-dark/90 backdrop-blur-sm border-b border-brand-teal/20 py-2 px-4 text-center">
       <p className="text-[10px] sm:text-xs font-bold text-brand-teal tracking-widest">
-        🧬 LANZAMIENTO 2026 · Sistema Maestro de Reflexología para Profesionales ·{" "}
+        🚀 LANZAMIENTO 2026 · ART MASTER 2026 ·{" "}
         <span className="text-white">Precio de lanzamiento — sube sin aviso</span>
       </p>
     </div>

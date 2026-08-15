@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 import { X, Check } from "lucide-react";
 
 const sinSistema = [
-  "Cursos sueltos y videos gratuitos sin orden ni aplicación clínica",
-  "Cero respaldo legal: sin fichas ni consentimiento informado",
-  "Meses de prueba y error para armar tus propios protocolos",
-  "Tarifa de masaje relax, sin poder subir tu ticket",
+  "Modelos sueltos y normativa dispersa sin un mapa de acción",
+  "Horas perdidas buscando cómo iniciar o cargar cada trámite",
+  "Cálculos inciertos y riesgo de aplicar una fórmula desactualizada",
+  "Plazos perentorios que pueden vencerse por falta de seguimiento",
 ];
 
 const conSistema = [
-  "Sistema completo y organizado para empezar a implementar desde el primer día.",
-  "Fichas de evaluación y modelos de consentimiento informado para documentar tu práctica profesional.",
-  "12 protocolos clínicos ya armados por patología",
-  "Posicionamiento profesional para salir de la tarifa de relax y justificar un servicio de mayor valor.",
+  "Sistema operativo completo para empezar a trabajar con método desde hoy.",
+  "Checklists y mapas de etapas para ordenar cada expediente.",
+  "Modelos de escritos, fórmulas de cálculo y protocolos digitales listos para adaptar.",
+  "Criterio técnico actualizado para defender mejor el valor de tu trabajo.",
 ];
 
 export function Comparison() {
@@ -22,12 +22,11 @@ export function Comparison() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-10">
           <h2 className="font-heading text-3xl md:text-5xl font-black text-white mb-3">
-            Lo que esto reemplaza{" "}
-            <span className="text-brand-teal">y cuánto cuesta no tenerlo</span>
+            Más orden, menos improvisación{" "}
+            <span className="text-brand-teal">en cada expediente</span>
           </h2>
           <p className="text-brand-gray max-w-xl mx-auto">
-            La información correcta sale menos cara que malas decisiones y
-            protocolos improvisados.
+            Un sistema claro te ayuda a reducir búsquedas, errores y demoras operativas.
           </p>
         </div>
 
@@ -59,7 +58,7 @@ export function Comparison() {
             className="bg-brand-card border border-brand-teal/40 rounded-2xl p-6 shadow-[0_4px_24px_rgba(0,212,170,0.08)]"
           >
             <h3 className="text-brand-teal font-bold uppercase tracking-widest text-xs mb-4">
-              Con el Sistema Maestro
+              Con ART MASTER 2026
             </h3>
             <ul className="space-y-3">
               {conSistema.map((item) => (

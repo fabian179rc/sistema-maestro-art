@@ -14,25 +14,24 @@ export function FinalPricingCTA() {
       <div className="container mx-auto px-4 max-w-3xl relative z-10">
         <div className="mb-5">
           <span className="inline-block px-6 py-2.5 rounded-full border border-brand-teal/30 bg-brand-teal/10 text-brand-teal font-bold tracking-[0.18em] uppercase text-xs">
-            Última Oportunidad
+            Última oportunidad de lanzamiento
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-black font-heading text-white mb-5 leading-tight">
-          Tu próxima sesión merece que te{" "}
-          <span className="text-brand-teal">paguen como especialista</span>.
+          Más orden, más claridad y{" "}
+          <span className="text-brand-teal">mejor gestión profesional en ART.</span>
         </h2>
         <p className="text-lg text-brand-gray mb-8 max-w-2xl mx-auto">
-          El sistema completo. Más protocolos claros y menos tiempo perdido
-          improvisando en consulta.
+          Dejá de armar cada trámite desde cero: ART MASTER 2026 te da el sistema para trabajar con método, precisión y confianza en cada expediente.
         </p>
 
         <div className="bg-brand-card border border-brand-border rounded-3xl p-6 md:p-7 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-white mb-2 text-lg md:text-xl">
-            Sistema Maestro de Reflexología para Profesionales + 5 Bonos GRATIS
+            Kit Completo: ART MASTER 2026 + 5 Bonos Incluidos
           </h3>
-          <div className="text-brand-gray line-through mb-2">ARS 234.940</div>
+          <div className="text-brand-gray line-through mb-2">ARS 45.000</div>
           <div className="text-4xl font-black text-brand-teal mb-6">
-            ARS 19.990
+            ARS 21.990
           </div>
           <motion.a
             href={getCheckoutUrl()}
@@ -41,7 +40,7 @@ export function FinalPricingCTA() {
             className="flex items-center justify-center gap-2 md:gap-3 w-full bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest text-[13px] md:text-lg px-4 py-3.5 md:px-6 md:py-5 rounded-xl shadow-[0_0_30px_#00d4aa33] transition-all mb-4"
           >
             <span className="text-center">
-              Sí, quiero mi sistema completo hoy
+              🚀 Quiero Empezar Hoy
             </span>
             <ArrowRight className="w-4 h-4 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
@@ -53,7 +52,7 @@ export function FinalPricingCTA() {
               className="w-4 h-4 fill-brand-teal text-brand-teal"
               aria-hidden="true"
             />
-            4.8/5 — Reseñas verificadas
+            4.9/5 — Valoración de usuarios
           </span>
           <span className="flex items-center justify-center gap-1.5">
             <ShieldCheck

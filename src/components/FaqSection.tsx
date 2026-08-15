@@ -4,28 +4,28 @@ import { Plus, Minus } from "lucide-react";
 import { getCheckoutUrl } from "../utils/checkoutUrl";
 const faqs = [
   {
-    q: "¿Sirve si ya soy terapeuta con años de experiencia?",
-    a: "Especialmente para vos. El sistema no empieza desde cero — asume que ya tenés la base técnica y te da los protocolos clínicos, la documentación y las herramientas de posicionamiento que faltaban para subir tu ticket.",
+    q: "¿Sirve si ya trabajo hace años con casos de ART?",
+    a: "Sí. ART MASTER 2026 funciona como sistema de consulta y actualización para ordenar tu práctica, reducir búsquedas y trabajar con normativa, modelos y protocolos reunidos en un solo lugar.",
   },
   {
-    q: "¿Es contenido técnico o básico?",
-    a: "Técnico y aplicado. Cada protocolo incluye anatomía de referencia, secuencia exacta de puntos, técnica de presión (tonificación vs. dispersión) y frecuencia de sesión recomendada por patología.",
+    q: "¿Sirve para cualquier provincia de Argentina?",
+    a: "Cubre el procedimiento federal ante Comisiones Médicas, aplicable en todo el país, con capítulos específicos para CABA y Provincia de Buenos Aires en la instancia judicial.",
   },
   {
-    q: "¿Necesito comprar equipos o materiales especiales?",
-    a: "No. Todo el sistema se aplica con tus manos. No hay inversión en equipos, aparatología ni insumos especiales de ningún tipo.",
+    q: "¿Necesito experiencia previa en ART para usarlo?",
+    a: "No. El material está estructurado desde el encuadre normativo básico hasta los trámites más complejos. Es útil tanto para quien empieza como para quien necesita actualizarse.",
   },
   {
-    q: "¿Reemplaza la formación médica?",
-    a: "No. Este material es educativo y profesional, diseñado como complemento de tu formación existente. No reemplaza el criterio clínico ni la derivación médica cuando corresponde.",
+    q: "¿Cuándo recibo el acceso?",
+    a: "El acceso es inmediato. Dentro de los minutos posteriores a la compra recibís el enlace de descarga en tu correo electrónico.",
   },
   {
-    q: "¿Cómo recibo el material después de comprar?",
-    a: "Acceso inmediato por email después del pago. Descarga directa en PDF. Podés tenerlo en tu celular, tablet o computadora en menos de 5 minutos.",
+    q: "¿Reemplaza el asesoramiento de un abogado senior?",
+    a: "No. ART MASTER 2026 es una herramienta de organización y orientación práctica. Los modelos y guías deben adaptarse a la normativa, jurisprudencia y usos procesales vigentes en cada jurisdicción.",
   },
   {
     q: "¿Puedo pedir reembolso?",
-    a: "Sí. Garantía incondicional de 7 días. Si no estás satisfecho por cualquier motivo, te devolvemos el 100% de tu inversión sin preguntas ni formularios.",
+    a: "Sí. Tenés 7 días para revisar el material y solicitar la devolución según las condiciones de compra si no se corresponde con lo ofrecido en esta página.",
   },
 ];
 
@@ -91,7 +91,7 @@ export function FaqSection() {
             href={getCheckoutUrl()}
             className="inline-block bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest px-8 py-4 rounded-lg shadow-[0_0_30px_#00d4aa33] transition-all"
           >
-            Acceder ahora por ARS 19.990
+            Acceder ahora por ARS 21.990
           </a>
         </div>
       </div>

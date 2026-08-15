@@ -3,19 +3,21 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const stats = [
-  { value: "6", label: "Módulos" },
-  { value: "12", label: "Protocolos" },
-  { value: "180+", label: "Páginas" },
+  { value: "8", label: "Bloques" },
+  { value: "10", label: "Trámites" },
   { value: "5", label: "Bonos" },
+  { value: "2026", label: "Actualizado" },
 ];
 
 const modules = [
-  "Módulo 1 — Fundamentos y Anatomía Aplicada",
-  "Módulo 2 — Mapa de Puntos y Zonas Reflejas",
-  "Módulo 3 — Protocolos Clínicos por Patología",
-  "Módulo 4 — Evaluación y Documentación Clínica",
-  "Módulo 5 — Seguridad y Contraindicaciones",
-  "Módulo 6 — Posicionamiento y Ventas Profesionales",
+  "Marco Normativo 2026 — leyes, decretos y resoluciones clave",
+  "Alta en ARCA y Ventanilla Electrónica SRT, paso a paso",
+  "Los 10 trámites ante Comisiones Médicas",
+  "Audiencias virtuales por Teams y firma digital del acta",
+  "Cálculo de indemnización con IBM, RIPTE y pisos mínimos",
+  "Instancia judicial diferenciada para CABA y Provincia de Buenos Aires",
+  "Nuevo Baremo del Dto. 549/2025 y Res. SRT 5/2026",
+  "Recursos ante Comisiones Médicas y vías judiciales",
 ];
 
 export function FeaturesSection() {
@@ -27,7 +29,7 @@ export function FeaturesSection() {
             Una guía completa, organizada y aplicable
           </span>
           <h2 className="font-heading text-3xl md:text-4xl font-black text-white">
-            Los 6 módulos del sistema
+            Qué incluye ART MASTER 2026
           </h2>
         </div>
 

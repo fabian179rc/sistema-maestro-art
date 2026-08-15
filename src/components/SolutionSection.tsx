@@ -1,22 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Sprout, TrendingUp, Building2 } from "lucide-react";
+import { Scale, HardHat, Calculator } from "lucide-react";
 
 const profiles = [
   {
-    icon: Sprout,
-    title: "La Terapeuta que Empieza",
-    desc: "Salís de tu formación con la técnica en las manos pero sin protocolos clínicos definidos. Necesitás un sistema, no otro curso suelto.",
+    icon: Scale,
+    title: "Abogado/a laboralista",
+    desc: "Gestioná expedientes de ART con modelos, checklists y protocolos que te permiten trabajar con método desde el primer día.",
   },
   {
-    icon: TrendingUp,
-    title: "El Profesional con Experiencia",
-    desc: "Ya dominás la técnica. Te falta la documentación y el posicionamiento clínico para dejar de cobrar tarifa de relax y subir tu ticket.",
+    icon: HardHat,
+    title: "Técnico/a en HyS",
+    desc: "Ordená la documentación, los plazos y las acciones clave para acompañar cada caso con una mirada profesional.",
   },
   {
-    icon: Building2,
-    title: "El Dueño de Gabinete",
-    desc: "Querés sumar Reflexología Clínica como servicio premium en tu equipo, sin capacitar desde cero a cada terapeuta nuevo.",
+    icon: Calculator,
+    title: "Liquidador/a de siniestros",
+    desc: "Calculá indemnizaciones, auditá ofertas y entendé la normativa que impacta en cada liquidación.",
   },
 ];
 
@@ -26,11 +26,11 @@ export function SolutionSection() {
       <div className="container mx-auto px-4 max-w-4xl text-center">
         <div className="mb-10">
           <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-brand-teal mb-3">
-            La solución — sistema todo en uno
+            La solución — sistema operativo completo
           </span>
           <h2 className="font-heading text-3xl md:text-5xl font-black text-white mb-4 max-w-3xl mx-auto">
-            No importa tu nivel: este sistema te lleva al{" "}
-            <span className="text-brand-teal">siguiente</span>
+            Todo lo que necesitás para trabajar ART con{" "}
+            <span className="text-brand-teal">método y precisión.</span>
           </h2>
         </div>
 

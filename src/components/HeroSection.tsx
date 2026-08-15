@@ -17,7 +17,7 @@ export function HeroSection() {
           transition={{ duration: 0.5 }}
           className="hidden md:inline-flex items-center gap-2 px-5 py-2 mb-6 rounded-full border border-brand-teal/30 bg-brand-teal/10 text-brand-teal font-bold tracking-[0.18em] uppercase text-[10px] md:text-xs"
         >
-          Sistema Clínico Profesional · 2026
+          ART MASTER 2026 · Edición actualizada
         </motion.div>
 
         <motion.h1
@@ -26,9 +26,9 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-heading font-black text-white mb-0 text-[26px] leading-[1.15] md:text-5xl md:leading-tight"
         >
-          Dejá de Cobrar Tarifa de Relax.{" "}
+          La Biblia Operativa del Litigio y la Gestión Digital en{" "}
           <span className="text-brand-teal">
-            Empezá a Cobrar como Especialista.
+            ART.
           </span>
         </motion.h1>
 
@@ -42,11 +42,11 @@ export function HeroSection() {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet={`${import.meta.env.BASE_URL}protocolo-glp1-mockup.webp`}
+                srcSet={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
               />
               <img
-                src={`${import.meta.env.BASE_URL}protocolo-glp1-mockup-mobile.webp`}
-                alt="Sistema Maestro de Reflexología para Profesionales"
+                src={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
+                alt="ART MASTER 2026 — La Biblia Operativa del Litigio y la Gestión Digital en ART"
                 width={1254}
                 height={1254}
                 loading="eager"
@@ -65,8 +65,7 @@ export function HeroSection() {
           className="max-w-2xl mx-auto mt-0 mb-2"
         >
           <p className="text-brand-gray text-[14px] md:text-lg leading-relaxed">
-            Protocolos, fichas profesionales y guiones de venta, por menos de lo
-            que cobrás en una sesión.
+            Guías paso a paso, modelos de escritos, checklists procesales, fórmulas de cálculo actualizadas y protocolos digitales — listos para descargar y usar desde el primer día.
           </p>
         </motion.div>
 
@@ -77,9 +76,9 @@ export function HeroSection() {
           className="max-w-xl mx-auto mt-4 mb-8 space-y-2 text-left"
         >
           {[
-            "Sistema organizado en 6 áreas profesionales, con protocolos aplicados por condición",
-            "Fichas de evaluación y consentimiento listos para imprimir",
-            "Scripts de venta para presentar tu servicio, convertir más consultas en sesiones y profesionalizar tu seguimiento.",
+            "Gestioná expedientes sin perder plazos ni improvisar cada trámite.",
+            "Cargá la Ventanilla Electrónica y los trámites ante Comisiones Médicas con método.",
+            "Calculá indemnizaciones y argumentá técnicamente con normativa actualizada.",
           ].map((item) => (
             <li
               key={item}
@@ -106,7 +105,7 @@ export function HeroSection() {
             whileTap={{ scale: 0.98 }}
             className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest px-6 sm:px-10 py-4 sm:py-5 rounded-lg shadow-[0_0_30px_#00d4aa33] transition-all mb-6 text-[13px] sm:text-lg whitespace-nowrap"
           >
-            Quiero el Sistema Completo Ahora
+            Quiero Mi Sistema ART
           </motion.a>
 
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-y-1 sm:gap-x-6 sm:gap-y-3 justify-center items-center text-xs sm:text-sm font-medium text-brand-gray">
@@ -115,7 +114,7 @@ export function HeroSection() {
                 className="w-3 h-3 sm:w-4 sm:h-4 fill-brand-teal text-brand-teal"
                 aria-hidden="true"
               />
-              4.8/5 — +1.200 terapeutas en LATAM
+              4.9/5 — Valoración de usuarios
             </span>
             <span className="flex items-center justify-center gap-1 sm:gap-1.5">
               <ShieldCheck
@@ -136,7 +135,7 @@ export function HeroSection() {
                 className="w-3 h-3 sm:w-4 sm:h-4 text-brand-blue"
                 aria-hidden="true"
               />
-              Pago único
+              Producto 100% digital
             </span>
           </div>
         </motion.div>

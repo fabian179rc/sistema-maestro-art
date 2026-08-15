@@ -5,11 +5,11 @@ import { useScreenInit } from "./useScreenInit";
 import { getCheckoutUrl } from "./utils/checkoutUrl";
 const META_PIXEL_ID = "37700639772914955";
 const PAGE_TITLE =
-  "Sistema Maestro de Reflexología para Profesionales — Sistema Profesional de 7 Días";
+  "ART MASTER 2026 — La Biblia Operativa del Litigio";
 const PAGE_DESC =
-  "Implementá Reflexología Clínica en tu gabinete en 7 días: protocolos por patología, fichas profesionales y guiones de venta listos para aplicar.";
-const HERO_IMAGE = `${import.meta.env.BASE_URL}protocolo-glp1-mockup.webp`;
-const HERO_IMAGE_MOBILE = `${import.meta.env.BASE_URL}protocolo-glp1-mockup-mobile.webp`;
+  "Guías paso a paso, modelos de escritos, checklists procesales, cálculos actualizados y protocolos digitales para profesionales de ART.";
+const HERO_IMAGE = `${import.meta.env.BASE_URL}art-master-2026-mockup.png`;
+const HERO_IMAGE_MOBILE = `${import.meta.env.BASE_URL}art-master-2026-mockup.png`;
 
 const SITE_URL = "https://reflexologia.tupuntodigital.shop/";
 function setMeta(attr: "name" | "property", key: string, content: string) {
@@ -77,7 +77,7 @@ export function App() {
     setMeta(
       "property",
       "og:site_name",
-      "Reflexología Clínica Pro",
+      "ART MASTER 2026",
     );
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
@@ -91,16 +91,16 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Sistema Maestro de Reflexología para Profesionales",
+        name: "ART MASTER 2026",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Reflexología Clínica Pro",
+          name: "ART MASTER 2026",
         },
         offers: {
           "@type": "Offer",
-          price: "19990",
+          price: "21990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
           url: getCheckoutUrl(),
@@ -117,30 +117,11 @@ export function App() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         mainEntity: [
-          {
-            q: "¿Sirve si ya soy terapeuta con años de experiencia?",
-            a: "Especialmente para vos. El sistema no empieza desde cero: asume que ya tenés la base técnica y te da los protocolos clínicos, la documentación y las herramientas de posicionamiento que faltaban para subir tu ticket.",
-          },
-          {
-            q: "¿Es contenido técnico o básico?",
-            a: "Técnico y aplicado. Cada protocolo incluye anatomía de referencia, secuencia exacta de puntos, técnica de presión y frecuencia de sesión recomendada por patología.",
-          },
-          {
-            q: "¿Necesito comprar equipos o materiales especiales?",
-            a: "No. Todo el sistema se aplica con tus manos. No hay inversión en equipos, aparatología ni insumos especiales de ningún tipo.",
-          },
-          {
-            q: "¿Reemplaza la formación médica?",
-            a: "No. Este material es educativo y profesional, diseñado como complemento de tu formación existente. No reemplaza el criterio clínico ni la derivación médica cuando corresponde.",
-          },
-          {
-            q: "¿Cómo recibo el material después de comprar?",
-            a: "Acceso inmediato por email después del pago. Descarga directa en PDF, lista para tu celular, tablet o computadora en minutos.",
-          },
-          {
-            q: "¿Puedo pedir reembolso?",
-            a: "Sí. Garantía incondicional de 7 días. Si no estás satisfecho, te devolvemos el 100% de tu inversión sin preguntas ni formularios.",
-          },
+          { q: "¿Sirve si ya trabajo hace años con casos de ART?", a: "Sí. ART MASTER 2026 funciona como sistema de consulta y actualización para ordenar tu práctica, reducir búsquedas y trabajar con normativa, modelos y protocolos reunidos en un solo lugar." },
+          { q: "¿Sirve para cualquier provincia de Argentina?", a: "Cubre el procedimiento federal ante Comisiones Médicas, aplicable en todo el país, con capítulos específicos para CABA y Provincia de Buenos Aires en la instancia judicial." },
+          { q: "¿Necesito experiencia previa en ART para usarlo?", a: "No. El material está estructurado desde el encuadre normativo básico hasta los trámites más complejos. Es útil tanto para quien empieza como para quien necesita actualizarse." },
+          { q: "¿Cuándo recibo el acceso?", a: "El acceso es inmediato. Dentro de los minutos posteriores a la compra recibís el enlace de descarga en tu correo electrónico." },
+          { q: "¿Reemplaza el asesoramiento de un abogado senior?", a: "No. ART MASTER 2026 es una herramienta de organización y orientación práctica. Los modelos y guías deben adaptarse a la normativa, jurisprudencia y usos procesales vigentes en cada jurisdicción." },
         ].map((item) => ({
           "@type": "Question",
           name: item.q,

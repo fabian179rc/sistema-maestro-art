@@ -1,27 +1,37 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { BadgeCheck, HeartHandshake, CalendarCheck, TrendingUp } from "lucide-react";
+import { BadgeCheck, ClipboardCheck, Calculator, Scale, Clock3, FileText } from "lucide-react";
 
 const changes = [
   {
     icon: BadgeCheck,
-    title: "Presencia Clínica",
-    desc: "Fichas y protocolos organizados que te muestran como especialista desde el primer minuto.",
+    title: "Gestionar expedientes sin perder plazos",
+    desc: "Checklists procesales y mapas de etapas para saber exactamente qué acción tomar.",
   },
   {
-    icon: HeartHandshake,
-    title: "Confianza del Paciente",
-    desc: "Consentimiento informado y evaluación documentada, para una atención más clara y profesional.",
+    icon: ClipboardCheck,
+    title: "Cargar trámites sin errores",
+    desc: "Protocolos para ARCA, Ventanilla Electrónica y Comisiones Médicas sin rechazos técnicos.",
   },
   {
-    icon: CalendarCheck,
-    title: "Más Consultas Convertidas en Sesiones",
-    desc: "Scripts de venta listos para ofrecer el servicio sin incomodidad, en WhatsApp e Instagram.",
+    icon: Calculator,
+    title: "Calcular indemnizaciones con precisión",
+    desc: "Aplicá IBM, RIPTE con corrimiento y pisos mínimos sin depender de nadie.",
   },
   {
-    icon: TrendingUp,
-    title: "Ingresos por Sesión",
-    desc: "Paquetes de sesiones armados con protocolos claros, para dejar de cobrar tarifa de relax.",
+    icon: Scale,
+    title: "Dominar el nuevo Baremo",
+    desc: "Entendé secuelas, factores de ponderación y capacidad restante para argumentar técnicamente.",
+  },
+  {
+    icon: Clock3,
+    title: "Ahorrar horas de búsqueda",
+    desc: "Encontrá el procedimiento y el modelo adecuado en un sistema ordenado y actualizado.",
+  },
+  {
+    icon: FileText,
+    title: "Presentarte con autoridad",
+    desc: "Entregá documentación sólida y actualizada que genere confianza desde la primera consulta.",
   },
 ];
 
@@ -31,12 +41,12 @@ export function ValueStack() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-10">
           <h2 className="font-heading text-3xl md:text-5xl font-black text-white">
-            Lo que cambia cuando organizás{" "}
-            <span className="text-brand-teal">tu aplicación</span>
+            Con este sistema vas a poder trabajar con{" "}
+            <span className="text-brand-teal">método y confianza</span>
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {changes.map((c, i) => (
             <motion.div
               key={c.title}

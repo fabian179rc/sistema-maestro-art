@@ -3,37 +3,37 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Expediente Pro: Fichas de Evaluación y Consentimiento Clínico",
-    desc: "Anamnesis, mapa de hallazgos y consentimiento informado, listos para imprimir.",
-    value: "ARS 34.990",
+    title: 'Diccionario de Escritos ART "Copy-Paste"',
+    desc: "Modelos de inicio, alegatos y recursos de apelación listos para copiar del PDF y adaptar al expediente.",
+    value: "ARS 18.990",
     image: "bono1.webp",
   },
   {
     num: 2,
-    title: "Protocolo de Seguridad: Guía Maestra de Contraindicaciones",
-    desc: "Embarazo, diabetes avanzada y patologías oncológicas: qué no tratar y cuándo derivar.",
-    value: "ARS 24.990",
+    title: "Manual de Liquidación Pro 2026",
+    desc: "Hoja de trabajo para calcular IBM, RIPTE con corrimiento y piso mínimo. Auditá las ofertas de la ART.",
+    value: "ARS 16.990",
     image: "bono2.webp",
   },
   {
     num: 3,
-    title: "Script de Venta: De Masajista a Especialista",
-    desc: "Guiones para WhatsApp, Instagram y consulta presencial, listos para usar.",
-    value: "ARS 39.990",
+    title: "Protocolo de Audiencias Virtuales & Firma Digital",
+    desc: "Guía visual para configurar Teams, cumplir requisitos técnicos y firmar el acta sin suspensiones.",
+    value: "ARS 14.990",
     image: "bono3.webp",
   },
   {
     num: 4,
-    title: "Ergonomía Terapéutica: Protegé tus Manos y tu Carrera",
-    desc: "Posturas, uso de nudillos y ejercicios para prevenir tendinitis y túnel carpiano.",
-    value: "ARS 24.990",
+    title: "Atlas Crítico del Nuevo Baremo (Dto. 549/2025)",
+    desc: "Tabla comparativa de secuelas, factores de ponderación y argumentación técnica para fundamentar la incapacidad.",
+    value: "ARS 19.990",
     image: "bono4.webp",
   },
   {
     num: 5,
-    title: "Reflexología para Casos Especiales: Embarazo, Adultos Mayores y Pacientes con Patología Crónica",
-    desc: "Cómo adaptar el protocolo para embarazadas, adultos mayores y pacientes con patología crónica, con checklist de evaluación previa por perfil.",
-    value: "ARS 27.990",
+    title: 'Checklist "Blindaje de Primera Consulta"',
+    desc: "Preguntas exactas para los primeros 15 minutos, matriz de plazos de denuncia y protocolo de acción inmediata.",
+    value: "ARS 12.990",
     image: "bono5.webp",
   },
 ];
@@ -44,10 +44,10 @@ export function BonusesSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
           <span className="inline-block text-xs font-bold uppercase tracking-[0.3em] text-brand-teal mb-3">
-            Bonos incluidos — sin costo extra
+            5 Bonos incluidos — sin costo adicional
           </span>
           <h2 className="font-heading font-black text-white text-3xl md:text-5xl leading-tight">
-            Es un sistema completo.
+            Herramientas de acción inmediata para multiplicar el valor del sistema.
           </h2>
         </div>
 

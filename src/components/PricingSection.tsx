@@ -4,11 +4,11 @@ import { ArrowRight, Zap, CreditCard, ShieldCheck, Lock } from "lucide-react";
 import { getCheckoutUrl } from "../utils/checkoutUrl";
 
 const incluye = [
-  "6 módulos clínicos completos (180+ páginas)",
-  "12 protocolos listos para aplicar",
-  "Fichas de evaluación + modelo de consentimiento informado",
-  "Guía de contraindicaciones y seguridad",
-  "Scripts de venta para presentar, ofrecer y hacer seguimiento de tu servicio.",
+  "ART MASTER 2026 — La Biblia Operativa",
+  "8 bloques sobre normativa, trámites, cálculo y litigio",
+  "5 bonos incluidos sin costo adicional",
+  "Protocolos diferenciados para CABA y Provincia de Buenos Aires",
+  "Acceso digital inmediato en formato PDF",
 ];
 
 export function PricingSection() {
@@ -19,11 +19,11 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-6 rounded-full border border-brand-teal/30 bg-brand-teal/10 text-brand-teal font-bold tracking-[0.18em] uppercase text-xs animate-pulse">
-          ⚡ Precio de lanzamiento — sube sin aviso previo
+          🔥 51% OFF — LANZAMIENTO
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-black text-white leading-tight mb-6">
-          Accedé al sistema ahora y empezá{" "}
-          <span className="text-brand-teal">el cambio hoy</span>
+          Accedé a ART MASTER 2026 y empezá{" "}
+          <span className="text-brand-teal">a trabajar con método</span>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-sm mx-auto">
@@ -31,11 +31,11 @@ export function PricingSection() {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet={`${import.meta.env.BASE_URL}protocolo-glp1-mockup.webp`}
+                srcSet={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
               />
               <img
-                src={`${import.meta.env.BASE_URL}protocolo-glp1-mockup-mobile.webp`}
-                alt="Sistema Maestro de Reflexología para Profesionales"
+                src={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
+                alt="ART MASTER 2026 — La Biblia Operativa"
                 width={1254}
                 height={1254}
                 loading="lazy"
@@ -53,14 +53,14 @@ export function PricingSection() {
       >
         <div className="bg-brand-card border border-brand-border rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <p className="text-brand-gray text-base md:text-lg mb-2">
-            Precio regular: <span className="line-through">ARS 234.940</span>
+            Precio normal: <span className="line-through">ARS 45.000</span>
           </p>
 
           <div className="price-glow font-heading font-black text-brand-teal leading-none mb-2 text-[3.5rem] md:text-7xl">
-            ARS 19.990
+            ARS 21.990
           </div>
           <p className="text-brand-gray text-sm mb-8">
-            Pago único · Acceso de por vida · Sin cuotas · Sin renovaciones
+            Pago único · Acceso instantáneo desde hoy
           </p>
 
           <div className="grid grid-cols-1 gap-2.5 text-left mb-8">
@@ -79,7 +79,7 @@ export function PricingSection() {
             className="flex items-center justify-center gap-3 w-full bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest text-base md:text-lg px-6 py-5 rounded-xl shadow-[0_0_30px_#00d4aa33] transition-all mb-6"
           >
             <span className="flex items-center gap-2 text-center">
-              Acceder al Sistema Completo
+              Sí, Quiero Acceder Ahora
             </span>
             <ArrowRight className="w-5 h-5 flex-shrink-0" />
           </motion.a>
@@ -104,9 +104,7 @@ export function PricingSection() {
           </div>
 
           <p className="text-brand-gray/60 text-xs mt-6 italic">
-            ¿Por qué este precio? Es de lanzamiento. A medida que más
-            terapeutas accedan y validen el contenido, el precio será
-            ajustado.
+            Precio especial de lanzamiento por tiempo limitado mientras dure la campaña.
           </p>
         </div>
       </div>

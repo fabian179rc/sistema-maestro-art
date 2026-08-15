@@ -2,24 +2,24 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const situations = [
   {
-    emoji: '🌀',
-    title: 'Información Dispersa',
-    desc: 'Buscás en YouTube, grupos de Facebook y cursos sueltos, y encontrás versiones contradictorias de todo. Ningún lugar te da el mapa completo.',
+    emoji: '🗂️',
+    title: 'Modelos dispersos',
+    desc: 'Escritos sueltos y desactualizados. Cada caso nuevo, rehacés todo desde cero sin saber si el modelo sigue vigente.',
   },
   {
-    emoji: '📄',
-    title: 'Cero Respaldo Documental',
-    desc: 'Sin fichas de evaluación ni consentimiento informado, cada sesión queda librada a la memoria. Te expone frente a cualquier reclamo.',
+    emoji: '⏱️',
+    title: 'Trámites que llevan horas',
+    desc: 'La carga en e-Servicios SRT, la Ventanilla Electrónica y el alta en ARCA te comen tiempo que podrías usar para cerrar casos.',
   },
   {
-    emoji: '💸',
-    title: 'Tarifa de Relax',
-    desc: 'Cobrás lo mismo que un masaje descontracturante porque nada en tu presentación te posiciona como especialista clínico.',
+    emoji: '📌',
+    title: 'Cálculos inciertos',
+    desc: 'No tenés claro cómo aplicar el IBM, el RIPTE con corrimiento o el nuevo Baremo sin cometer errores.',
   },
   {
-    emoji: '🎓',
-    title: 'La Técnica sin el Protocolo',
-    desc: 'Aprendiste los puntos reflejos, pero nadie te enseñó cómo aplicarlos en secuencia según cada patología del paciente que tenés enfrente.',
+    emoji: '🎯',
+    title: 'Plazos perentorios',
+    desc: 'Una Divergencia en el Alta tiene 48 horas. Sin un sistema claro, el error procesal puede costarle el caso a tu cliente.',
   },
 ];
 
@@ -29,13 +29,13 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-5xl font-black mb-4 text-white">
-            ¿Buscás información?{' '}
-            <span className="text-brand-teal">Encontrás confusión.</span>
+            ¿Te falta estructura para gestionar casos de ART{' '}
+            <span className="text-brand-teal">sin trabarte?</span>
           </h2>
           <p className="text-lg text-brand-gray leading-relaxed max-w-2xl mx-auto">
-            Si ejercés Reflexología, probablemente vivís alguna de estas
-            situaciones:
+            Sabés redactar un escrito y conocés el proceso, pero cada expediente nuevo se convierte en horas de búsqueda, armado desde cero y dudas sobre qué trámite iniciar o qué plazo no vencer.
           </p>
+          <p className="text-brand-teal font-bold mt-4">⚡ Ese no es un problema de capacidad. Es un problema de sistema.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-2 sm:gap-6">
