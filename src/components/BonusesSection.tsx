@@ -18,7 +18,7 @@ const bonuses = [
   {
     num: 3,
     title: "Protocolo de Audiencias Virtuales & Firma Digital",
-    desc: "Guía visual para configurar Teams, cumplir requisitos técnicos y firmar el acta sin suspensiones.",
+    desc: "Guía visual para configurar Teams, cumplir requisitos técnicos, gestionar contingencias y firmar correctamente el acta.",
     value: "ARS 14.990",
     image: "bono3.webp",
   },

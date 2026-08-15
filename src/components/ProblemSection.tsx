@@ -9,7 +9,7 @@ const situations = [
   {
     emoji: '⏱️',
     title: 'Trámites que llevan horas',
-    desc: 'La carga en e-Servicios SRT, la Ventanilla Electrónica y el alta en ARCA te comen tiempo que podrías usar para cerrar casos.',
+    desc: 'La carga en ARCA, e-Servicios SRT y la Ventanilla Electrónica te come tiempo que podrías dedicar a gestionar tus casos.',
   },
   {
     emoji: '📌',

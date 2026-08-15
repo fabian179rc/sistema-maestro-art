@@ -11,7 +11,7 @@ const stats = [
 
 const modules = [
   "Marco Normativo 2026 — leyes, decretos y resoluciones clave",
-  "Alta en ARCA y Ventanilla Electrónica SRT, paso a paso",
+  "ARCA, e-Servicios SRT y Ventanilla Electrónica, paso a paso",
   "Los 10 trámites ante Comisiones Médicas",
   "Audiencias virtuales por Teams y firma digital del acta",
   "Cálculo de indemnización con IBM, RIPTE y pisos mínimos",
