@@ -4,7 +4,7 @@ import { Star, ShieldCheck, Zap, CreditCard } from "lucide-react";
 import { scrollToOffer } from "../utils/scrollToOffer";
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-brand-dark py-10 md:py-16">
+    <section className="relative overflow-hidden bg-brand-dark py-6 md:py-16">
       <div
         aria-hidden="true"
         className="absolute inset-0 bg-gradient-to-br from-brand-teal/5 via-transparent to-brand-blue/5 pointer-events-none"
@@ -36,9 +36,9 @@ export function HeroSection() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mx-auto my-6 w-full max-w-[380px] sm:max-w-md md:max-w-lg"
+          className="mx-auto my-4 md:my-6 w-full max-w-[300px] sm:max-w-md md:max-w-lg"
         >
-          <div className="relative rounded-2xl p-4 bg-gradient-to-br from-[#0d1b2a] to-[#0a1628] border border-brand-teal/20 shadow-[0_20px_60px_rgba(0,212,170,0.15)]">
+          <div className="relative rounded-2xl p-3 md:p-4 bg-gradient-to-br from-[#0d1b2a] to-[#0a1628] border border-brand-teal/20 shadow-[0_20px_60px_rgba(0,212,170,0.15)]">
             <picture>
               <source
                 media="(min-width: 768px)"
