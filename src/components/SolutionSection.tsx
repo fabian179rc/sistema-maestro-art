@@ -10,8 +10,8 @@ const profiles = [
   },
   {
     icon: HardHat,
-    title: "Técnico/a en HyS",
-    desc: "Ordená la documentación, los plazos y las acciones clave para acompañar cada caso con una mirada profesional.",
+    title: "Estudio jurídico laboral",
+    desc: "Estandarizá expedientes, modelos y plazos para que todo el equipo trabaje con el mismo sistema.",
   },
   {
     icon: Calculator,
