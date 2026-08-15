@@ -91,7 +91,7 @@ export function ContentSection() {
           className="bg-brand-card border border-brand-teal/20 rounded-3xl p-5 md:p-7 text-center"
         >
           <h3 className="font-heading font-bold text-white text-xl md:text-2xl mb-5">
-            Listo para descargar y usar desde el primer día
+            Listo para usar desde el primer día
           </h3>
           <div className="flex flex-wrap justify-center gap-3 mb-6">
             {respaldo.map((r, i) => (
