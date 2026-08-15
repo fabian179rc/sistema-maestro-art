@@ -10,8 +10,8 @@ const changes = [
   },
   {
     icon: ClipboardCheck,
-    title: "Cargar trámites sin errores",
-    desc: "Protocolos para ARCA, Ventanilla Electrónica y Comisiones Médicas sin rechazos técnicos.",
+    title: "Cargar trámites con mayor seguridad",
+    desc: "Protocolos para ARCA, Ventanilla Electrónica y Comisiones Médicas orientados a reducir errores de carga, inconsistencias y observaciones evitables.",
   },
   {
     icon: Calculator,

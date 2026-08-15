@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const stats = [
-  { value: "8", label: "Bloques" },
+  { value: "12", label: "Capítulos" },
   { value: "10", label: "Trámites" },
   { value: "5", label: "Bonos" },
   { value: "2026", label: "Actualizado" },

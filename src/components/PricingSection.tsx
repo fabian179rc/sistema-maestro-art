@@ -5,7 +5,7 @@ import { getCheckoutUrl } from "../utils/checkoutUrl";
 
 const incluye = [
   "ART MASTER 2026 — La Biblia Operativa",
-  "8 bloques sobre normativa, trámites, cálculo y litigio",
+  "12 capítulos sobre normativa, trámites, cálculo y litigio",
   "5 bonos incluidos sin costo adicional",
   "Protocolos diferenciados para CABA y Provincia de Buenos Aires",
   "Acceso digital inmediato en formato PDF",

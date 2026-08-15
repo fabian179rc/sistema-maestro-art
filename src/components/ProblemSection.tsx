@@ -19,7 +19,7 @@ const situations = [
   {
     emoji: '🎯',
     title: 'Plazos perentorios',
-    desc: 'Una Divergencia en el Alta tiene 48 horas. Sin un sistema claro, el error procesal puede costarle el caso a tu cliente.',
+    desc: 'Una notificación, un alta o una decisión administrativa puede activar plazos críticos. Sin un sistema claro, una demora puede complicar la estrategia del expediente.',
   },
 ];
 
