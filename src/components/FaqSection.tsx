@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
-import { getCheckoutUrl } from "../utils/checkoutUrl";
 const faqs = [
   {
     q: "¿Sirve si ya trabajo hace años con casos de ART?",
@@ -84,15 +83,6 @@ export function FaqSection() {
               </div>
             );
           })}
-        </div>
-
-        <div className="text-center mt-12">
-          <a
-            href={getCheckoutUrl()}
-            className="inline-block bg-brand-teal hover:bg-[#00ffcc] text-brand-dark font-black uppercase tracking-widest px-8 py-4 rounded-lg shadow-[0_0_30px_#00d4aa33] transition-all"
-          >
-            Acceder ahora por ARS 19.990
-          </a>
         </div>
       </div>
     </section>
