@@ -26,9 +26,9 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-heading font-black text-white mb-0 text-[26px] leading-[1.15] md:text-5xl md:leading-tight"
         >
-          La Biblia Operativa del Litigio y la Gestión Digital en{" "}
+          Si Litigás ART Sin Sistema en 2026,{" "}
           <span className="text-brand-teal">
-            ART.
+            La ART Siempre Lleva Ventaja
           </span>
         </motion.h1>
 
