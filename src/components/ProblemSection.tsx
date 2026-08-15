@@ -33,7 +33,7 @@ export function ProblemSection() {
             <span className="text-brand-teal">sin trabarte?</span>
           </h2>
           <p className="text-lg text-brand-gray leading-relaxed max-w-2xl mx-auto">
-            Sabés redactar un escrito y conocés el proceso, pero cada expediente nuevo se convierte en horas de búsqueda, armado desde cero y dudas sobre qué trámite iniciar o qué plazo no vencer.
+            Sabés redactar escritos, pero cada expediente nuevo te hace perder horas buscando modelos, trámites y plazos.
           </p>
           <p className="text-brand-teal font-bold mt-4">⚡ Ese no es un problema de capacidad. Es un problema de sistema.</p>
         </div>
