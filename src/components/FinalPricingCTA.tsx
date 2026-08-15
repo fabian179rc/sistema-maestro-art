@@ -29,9 +29,9 @@ export function FinalPricingCTA() {
           <h3 className="font-bold text-white mb-2 text-lg md:text-xl">
             Kit Completo: ART MASTER 2026 + 5 Bonos Incluidos
           </h3>
-          <div className="text-brand-gray line-through mb-2">ARS 45.000</div>
+          <div className="text-brand-gray line-through mb-2">ARS 79.990</div>
           <div className="text-4xl font-black text-brand-teal mb-6">
-            ARS 21.990
+            ARS 19.990
           </div>
           <motion.a
             href={getCheckoutUrl()}

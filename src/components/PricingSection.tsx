@@ -19,7 +19,7 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-6 rounded-full border border-brand-teal/30 bg-brand-teal/10 text-brand-teal font-bold tracking-[0.18em] uppercase text-xs animate-pulse">
-          🔥 51% OFF — LANZAMIENTO
+          🔥 75% OFF — LANZAMIENTO
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-black text-white leading-tight mb-6">
           Accedé a ART MASTER 2026 y empezá{" "}
@@ -53,11 +53,11 @@ export function PricingSection() {
       >
         <div className="bg-brand-card border border-brand-border rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <p className="text-brand-gray text-base md:text-lg mb-2">
-            Precio normal: <span className="line-through">ARS 45.000</span>
+            Precio normal: <span className="line-through">ARS 79.990</span>
           </p>
 
           <div className="price-glow font-heading font-black text-brand-teal leading-none mb-2 text-[3.5rem] md:text-7xl">
-            ARS 21.990
+            ARS 19.990
           </div>
           <p className="text-brand-gray text-sm mb-8">
             Pago único · Acceso instantáneo desde hoy
