@@ -64,7 +64,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl mx-auto mt-0 mb-2"
         >
-          <p className="text-brand-gray text-[14px] md:text-lg leading-relaxed">
+          <p className="text-brand-gray text-[13px] md:text-base leading-relaxed">
             Guías paso a paso, modelos de escritos, checklists procesales, fórmulas de cálculo actualizadas y protocolos digitales, listos para usar desde el primer día.
           </p>
         </motion.div>
