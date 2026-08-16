@@ -3,7 +3,7 @@ import { MotionConfig } from "framer-motion";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 import { getCheckoutUrl } from "./utils/checkoutUrl";
-const META_PIXEL_ID = "1726929391874198";
+const META_PIXEL_ID = "2225872721318810";
 const PAGE_TITLE =
   "ART MASTER 2026 — La Biblia Operativa del Litigio";
 const PAGE_DESC =
