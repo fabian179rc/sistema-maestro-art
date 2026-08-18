@@ -4,7 +4,7 @@ import { ArrowRight, Zap, CreditCard, ShieldCheck, Lock } from "lucide-react";
 import { getCheckoutUrl } from "../utils/checkoutUrl";
 
 const incluye = [
-  "ART MASTER 2026 — La Biblia Operativa",
+  "ART MASTER 2026 — La Guía Operativa",
   "12 capítulos sobre normativa, trámites, cálculo y litigio",
   "5 bonos incluidos sin costo adicional",
   "Protocolos diferenciados para CABA y Provincia de Buenos Aires",
@@ -35,7 +35,7 @@ export function PricingSection() {
               />
               <img
                 src={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
-                alt="ART MASTER 2026 — La Biblia Operativa"
+                alt="ART MASTER 2026 — La Guía Operativa"
                 width={1254}
                 height={1254}
                 loading="lazy"

@@ -46,7 +46,7 @@ export function HeroSection() {
               />
               <img
                 src={`${import.meta.env.BASE_URL}art-master-2026-mockup.png`}
-                alt="ART MASTER 2026 — La Biblia Operativa del Litigio y la Gestión Digital en ART"
+                alt="ART MASTER 2026 — La Guía Operativa del Litigio y la Gestión Digital en ART"
                 width={1254}
                 height={1254}
                 loading="eager"

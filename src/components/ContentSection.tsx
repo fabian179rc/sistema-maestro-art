@@ -29,7 +29,7 @@ export function ContentSection() {
           </span>
           <h2 className="font-heading font-black text-white text-3xl md:text-5xl leading-tight mb-4">
             ART MASTER 2026:{' '}
-            <span className="text-brand-teal">LA BIBLIA OPERATIVA</span>
+            <span className="text-brand-teal">LA GUÍA OPERATIVA</span>
           </h2>
           <p className="text-lg md:text-xl font-bold text-brand-gray max-w-2xl mx-auto">
             Todo el sistema operativo en un solo producto para trabajar con método, precisión y confianza en cada expediente.

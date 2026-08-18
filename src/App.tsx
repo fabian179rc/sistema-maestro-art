@@ -5,7 +5,7 @@ import { useScreenInit } from "./useScreenInit";
 import { getCheckoutUrl } from "./utils/checkoutUrl";
 const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
-  "ART MASTER 2026 — La Biblia Operativa del Litigio";
+  "ART MASTER 2026 — La Guía Operativa del Litigio";
 const PAGE_DESC =
   "Guías paso a paso, modelos de escritos, checklists procesales, cálculos actualizados y protocolos digitales para profesionales de ART.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}art-master-2026-mockup.png`;
